@@ -9,7 +9,7 @@ using AudreysCloud.Community.SharpHomeAssistant.Messages;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.CommandLine;
 
-namespace HomeAssistantWatcher
+namespace AudreysCloud.Community.HomeAssistantWatcher
 {
 	class Program
 	{
