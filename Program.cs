@@ -49,7 +49,7 @@ namespace AudreysCloud.Community.HomeAssistantWatcher
 			SubscribeEventsMessage subscribeEventsMessage = new SubscribeEventsMessage()
 			{
 				CommandId = 1,
-				EventType = "*"
+				EventName = "*"
 			};
 
 			if (!await connection.SendMessageAsync(subscribeEventsMessage, asyncCancelTokenSource.Token))
